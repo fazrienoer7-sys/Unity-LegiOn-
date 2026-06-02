@@ -290,8 +290,10 @@ body{
   transition:background .3s ease, box-shadow .3s ease;
 }
 
-#music-toggle:hover{
-  box-shadow:0 0 35px rgba(255,165,0,.55);
+@media (min-width:769px){
+  #music-toggle:hover{
+    transform:scale(1.1);
+  }
 }
 
 /* NAVBAR */
