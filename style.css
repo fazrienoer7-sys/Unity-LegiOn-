@@ -1295,9 +1295,3 @@ footer{
   -webkit-tap-highlight-color: transparent;
 }
 
-*{
-  animation: none !important;
-}
-*{
-  transition:none !important;
-}
