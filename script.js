@@ -70,64 +70,54 @@ if(typeof particlesJS !== "undefined"){
 
     particles: {
 
-      number: {
-        value: 25
+      number:{
+        value:15
       },
 
-      color: {
-        value: "#ff9900"
+      color:{
+        value:"#ff9900"
       },
 
-      shape: {
-        type: "circle"
+      shape:{
+        type:"circle"
       },
 
-      opacity: {
-        value: 0.4
+      opacity:{
+        value:0.3
       },
 
-      size: {
-        value: 3
+      size:{
+        value:2
       },
 
-      line_linked: {
-
-        enable: true,
-        distance: 150,
-        color: "#ff9900",
-        opacity: 0.2,
-        width: 1
-
+      line_linked:{
+        enable:true,
+        distance:120,
+        color:"#ff9900",
+        opacity:0.15,
+        width:1
       },
 
-      move: {
-
-        enable: true,
-        speed: 1
-
+      move:{
+        enable:true,
+        speed:0.5
       }
 
     },
 
-    interactivity: {
-
-      events: {
-
-        onhover: {
-          enable: true,
-          mode: "grab"
+    interactivity:{
+      events:{
+        onhover:{
+          enable:false
         }
-
       }
-
     },
 
-    retina_detect: true
+    retina_detect:true
 
   });
 
 }
-
 
 /* =========================
    MUSIC BUTTON
