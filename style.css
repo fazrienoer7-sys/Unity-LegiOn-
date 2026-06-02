@@ -227,8 +227,16 @@ body{
   box-shadow:
   0 0 25px rgba(255,140,0,.7);
 
-  animation:
-  loadingBar 3s linear forwards;
+.loading-fill{
+  width:0%;
+  height:100%;
+  border-radius:999px;
+  background:linear-gradient(
+    90deg,
+    orange,
+    #ff4500
+  );
+}
 
 }
 
@@ -1313,7 +1321,7 @@ body{
   .gallery-card:hover,
   .recruit-card:hover,
   .social-btn:hover,
-  .join-btn:hover,
+  .join-btn:hover,  
   .orange-btn:hover,
   .outline-btn:hover{
     transform:none !important;
@@ -1325,11 +1333,4 @@ body{
     height:auto;
   }
 
-}
-
-
-*,
-*::before,
-*::after{
-  animation:none !important;
 }
