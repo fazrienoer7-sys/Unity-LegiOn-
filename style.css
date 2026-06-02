@@ -1286,3 +1286,43 @@ footer{
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
 }
+
+/* =========================
+   MOBILE FIX
+========================= */
+
+html,
+body{
+  overflow-x:hidden;
+  overscroll-behavior-x:none;
+}
+
+@media(max-width:768px){
+
+  /* matikan glow besar */
+  .glow{
+    display:none;
+  }
+
+  /* matikan hero character */
+  .hero-character{
+    display:none;
+  }
+
+  /* matikan hover effect di HP */
+  .gallery-card:hover,
+  .recruit-card:hover,
+  .social-btn:hover,
+  .join-btn:hover,
+  .orange-btn:hover,
+  .outline-btn:hover{
+    transform:none !important;
+  }
+
+  /* cegah elemen melebar */
+  img{
+    max-width:100%;
+    height:auto;
+  }
+
+}
