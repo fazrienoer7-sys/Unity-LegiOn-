@@ -264,9 +264,7 @@ body{
 /* MUSIC BUTTON */
 
 #music-toggle{
-
   position:fixed;
-
   bottom:30px;
   right:30px;
 
@@ -274,13 +272,11 @@ body{
   height:60px;
 
   border:none;
-
   border-radius:50%;
 
   background:rgba(255,165,0,.12);
 
   color:white;
-
   font-size:24px;
 
   cursor:pointer;
@@ -289,20 +285,13 @@ body{
 
   backdrop-filter:blur(12px);
 
-  transition:.4s;
+  box-shadow:0 0 20px rgba(255,165,0,.25);
 
-  box-shadow:
-  0 0 20px rgba(255,165,0,.25);
-
+  transition:background .3s ease, box-shadow .3s ease;
 }
 
 #music-toggle:hover{
-
-  transform:scale(1.1);
-
-  box-shadow:
-  0 0 35px rgba(255,165,0,.55);
-
+  box-shadow:0 0 35px rgba(255,165,0,.55);
 }
 
 /* NAVBAR */
